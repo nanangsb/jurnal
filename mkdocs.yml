@@ -78,7 +78,6 @@ plugins:
   - search
   - tags:
         tags_file: tags.md
-  - table-reader
   
 extra:
   consent:
