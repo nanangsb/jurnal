@@ -1,1 +1,3 @@
-index
+# Blog
+
+ini halaman blog
