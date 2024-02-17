@@ -73,7 +73,8 @@ markdown_extensions:
   - pymdownx.superfences
 
 plugins:
-  - blog
+  - blog:
+      pagination_per_page: 5
       pagination_url_format: "{page}"
       pagination_format: "$link_first $link_previous ~2~ $link_next $link_last"
       blog_toc: true
