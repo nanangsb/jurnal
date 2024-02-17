@@ -1,5 +1,8 @@
 site_name: Nanang Git
+site_url: https://git.nanang.id/jurnal/
 
+repo_name: nanangsb/jurnal
+repo_url: https://github.com/nanangsb/jurnal
 
 copyright: Copyright &copy; 2016 - 2024 nanang.id
 theme:
