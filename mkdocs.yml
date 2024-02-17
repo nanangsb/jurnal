@@ -74,10 +74,19 @@ markdown_extensions:
 
 plugins:
   - blog
+  - meta
   - privacy
   - search
   - tags:
-        tags_file: tags.md
+      tags_file: tags.md
+  - rss:
+      enabled: !ENV [CI, false]
+      match_path: blog/post/.*
+      date_from_meta:
+        as_creation: date
+      categories:
+        - categories
+        - tags 
   
 extra:
   consent:
