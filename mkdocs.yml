@@ -84,6 +84,8 @@ plugins:
       post_excerpt_separator: <!-- more -->
       archive_date_format: MMMM yyyy
       archive_toc: true
+      categories_name: Kategori
+      categories_toc: true
   - privacy
   - search
   - tags:
