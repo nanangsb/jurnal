@@ -71,6 +71,8 @@ markdown_extensions:
   - admonition
   - pymdownx.details
   - pymdownx.superfences
+  - attr_list
+  - md_in_html
 
 plugins:
   - blog:
@@ -88,6 +90,7 @@ plugins:
       categories_toc: true
   - privacy
   - search
+  - glightbox
   - tags:
       tags_file: tags.md
   - rss:
